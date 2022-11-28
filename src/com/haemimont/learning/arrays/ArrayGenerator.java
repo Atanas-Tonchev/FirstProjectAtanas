@@ -5,6 +5,7 @@ import java.util.List;
 import java.util.Random;
 
 public class ArrayGenerator {
+
     private final int length;
 
     public ArrayGenerator(int length) {
@@ -18,7 +19,7 @@ public class ArrayGenerator {
         int randNum;
 
         while (list.size() < length -1) {
-            randNum = random.nextInt(length);
+            randNum = random.nextInt(length + 1);
             if (randNum == 0) continue;
 
             if (!list.contains(randNum)) {
