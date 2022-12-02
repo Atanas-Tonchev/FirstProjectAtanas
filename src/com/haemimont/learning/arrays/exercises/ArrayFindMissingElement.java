@@ -15,7 +15,7 @@ public class ArrayFindMissingElement {
         int[] arr = arrayGenerator1.generateArray();
         System.out.println(Arrays.toString(arr));
         for(int n:arr) sum=sum+n; {
-            //System.out.println(sum);
+            System.out.println(sum);
 
         }
         System.out.println("The missing number is: " +(sum1-sum));
